@@ -4,11 +4,7 @@ body{
 .hat{
     width: 400px;
     text-align: center;
-    /* margin:  auto; */
-    position: absolute;
-    left: 37%;
-    top: 20%;
-
+    margin: 100px auto;
     box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.225)
 }
 :hover.hat{
@@ -51,7 +47,7 @@ h1:hover{
 }
 
 .img{
-    
+    width: 250px;
 display: block;    
 margin: 1rem auto;
 }
@@ -61,4 +57,26 @@ color:#fefa23 ;
 font-size: 1.4rem;
 font-weight: bold;
 
+}
+
+
+
+@media(max-width : 475px){
+    .hat{
+        width: 300px;
+        text-align: center;
+        margin: 60px auto;
+        box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.225)
+    }
+
+    :hover.hat{
+        background-color: rgba(57, 57, 57, 0.592);
+        transition: 1.5s;
+    }
+
+    .img{
+        width: 200px;
+    display: block;    
+    margin: 1rem auto;
+    }
 }
