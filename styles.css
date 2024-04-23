@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+.hat{
+    width: 400px;
+    text-align: center;
+    /* margin:  auto; */
+    position: absolute;
+    left: 37%;
+    top: 20%;
+
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.225)
+}
+:hover.hat{
+    background-color: rgba(57, 57, 57, 0.592);
+    transition: 2s;
+}
+
+h1{
+    color: #fefa23;
+    font-size: 3rem;
+    margin-top: 0px;
+    /* border: 4px 0px solid red; */
+}
+h1:hover{
+    /* text-decoration:  line-through black; */
+    color: red;
+    transition: 1s;
+
+}
+
+.heads{
+    padding: .6rem 1rem;
+    background-color: rebeccapurple;
+    border: 0px;
+    border-radius: 4px;
+    width: 6rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.tails{
+    padding: .6rem 1rem;
+    background-color: rebeccapurple;
+    border: 0px;
+    border-radius: 4px;
+    width: 6rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.img{
+    
+display: block;    
+margin: 1rem auto;
+}
+
+.ans{
+color:#fefa23 ;
+font-size: 1.4rem;
+font-weight: bold;
+
+}
