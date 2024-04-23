@@ -87,4 +87,11 @@ font-weight: bold;
     display: block;    
     margin: 1rem auto;
     }
+    :hover.tails{
+        background-color: rgba(102, 51, 153, 0.319);
+    }
+    :hover.hat{
+        background-color: rgba(57, 57, 57, 0.592);
+        transition: 2s;
+    }
 }
