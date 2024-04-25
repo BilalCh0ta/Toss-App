@@ -1,6 +1,6 @@
 
 let ans  = document.querySelector(".ans")
-let image = document.querySelector(".img")
+let coin = document.querySelector(".coin")
 
 function heads() {
     let randoms = Math.ceil( Math.random() * 2)
@@ -8,11 +8,11 @@ function heads() {
 
       if(randoms == 1){
         console.log(randoms);
-        image.src = `images/head.png`
+        coin.innerHTML = ` <img src="images/head.png" class=" animate__animated animate__flip"  alt=""> `
         ans.innerHTML = "YOU WON"
       }else{
         console.log(randoms);
-        image.src = `images/tail.png`
+        coin.innerHTML = ` <img src="images/tail.png" class=" animate__animated animate__flip"  alt=""> `
         ans.innerHTML = "YOU LOST"
       }
 }
@@ -23,17 +23,32 @@ function tail() {
 
       if(randoms == 2){
         console.log(randoms);
-        image.src = `images/tail.png`
+        
+        coin.innerHTML = ` <img src="images/tail.png" class=" animate__animated animate__flip"  alt=""> `
         ans.innerHTML = "YOU WON "
       }else{
         console.log(randoms);
-        image.src = `images/head.png`
+        coin.innerHTML = ` <img src="images/head.png" class=" animate__animated animate__flip"  alt=""> `
         ans.innerHTML = "YOU LOST"
       }
 }
 
 
 
-// function tail() {
-//     console.log('tail');
-// }
+// console.log();
+
+
+
+
+
+
+
+
+
+
+
+// function ppp(){
+//     let ok = document .querySelector(".checks")
+//     ok.innerHTML =  ` <img src="images/head.png" class="animate__animated animate__flip" alt=""> `
+
+//   }
